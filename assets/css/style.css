@@ -1,0 +1,805 @@
+@font-face{
+    font-family: CODE Light;
+    src: url('../fonts/CODE Light.otf');
+}
+@font-face{
+    font-family: CODE Bold;
+    src: url('../fonts/CODE Bold.otf');
+}
+
+
+.main .container{
+	max-width: 1360px;
+	margin: 0 auto;
+}
+
+body{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px
+}
+/*
+=========================
+Start Header Section Css
+=========================
+*/
+.header{
+	background-image: url('../img/fashion-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 1360px;
+	height: 784px;
+	margin: 0 auto;
+}
+
+.main-menu{
+	display:flex;
+}
+
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 23px;
+
+}
+
+.main-menu ul li{
+	float: left;
+    padding: 10px 28px;
+
+}
+
+
+.main-menu ul li a{
+	text-decoration: none;
+	padding: 10px 18px;
+	color: #5b3f61;
+	font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main-menu ul li a:hover{}
+
+
+.header-left img{
+	position: relative;
+    left: 16px;
+    top: -19px;
+    cursor: pointer;
+}
+
+.slider-main{
+	text-align: center;
+}
+
+.slider-section img{
+	 margin-bottom:2px;
+
+}
+
+.header-right{
+	display: flex;
+	float: right;
+}
+
+
+.search-area{
+	position: relative;
+}
+
+
+.search-area, .avater{
+	margin: 24px 33px;
+}
+
+.search-area, .bucket{
+	margin: 32px 7px;
+}
+
+.search-icon:before{
+	content:'' ;
+    background-image: url('../img/search-icon.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 4px 80px;
+}
+
+.search-area a{
+	text-decoration: none;
+	font-size: 12pt;
+	margin-right:52px;
+	text-transform: uppercase;
+	color: #5b3f61;
+	font-weight: 600;
+}
+
+.slider-main{
+	text-align: center;
+}
+
+.slider-section{
+	text-align: center;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+
+.slider-section h2{
+    text-align: left;
+    position: absolute;
+    font-family: code Light;
+    color: #e84f88;
+    font-size: 98pt;
+    line-height: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.txt-new2{
+	font-family: code Bold;
+	font-style: italic;
+}
+.txt-new3{
+	color: #6db0c6;
+}
+/*
+=========================
+End Header Section Css
+=========================
+*/
+/*
+=========================
+Start Season Area Css
+=========================
+*/
+
+.spring{
+	background: #ecf3e8;
+	height: 290px;
+    font-family: Code Light;
+}
+
+.summer{
+	background: #f1e5e5;
+	height: 290px;
+    font-family: Code Light;
+}
+
+.auto{
+	background: #f6f3e6;
+    height: 290px;
+    font-family: Code Light;
+}
+
+.winter{
+    background: #ecf4f5;
+    height: 290px;
+    font-family: Code Light;
+}
+.summer h3, .auto h3{
+	position: absolute;
+	left: 95px;
+	bottom: 10px;
+}
+.spring h3{
+	position: absolute;
+	bottom: 10px;
+	right: 13px;
+}
+.winter h3{
+	position: absolute;
+	bottom: 10px;
+	left: 18px;
+}
+.summer h3, .spring h3, .auto h3, .winter h3{
+	font-size: 33pt;
+}
+.spring h3:hover, .summer h3:hover, .auto h3:hover, .winter h3:hover{
+	color: #e84f88;
+	font-family: code bold;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+/*
+=========================
+End Season Area Css
+=========================
+*/
+/*
+=========================
+Start Cloth Area Css
+=========================
+*/
+.main .container.clothes, .main .container.trends-w{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-area.item-1{
+    background: #F7F1F1;
+    position: relative;
+}
+
+.product-area.item-2{
+    background: #F3F6F6;
+     position: relative;
+}
+
+.product-area.item-4{
+    background: #F2F1EC;
+    position: relative;
+}
+
+.product-area.item-5{
+    background: #F1F5F2;
+    position: relative;
+}
+
+.product-area.item-6{
+    background: #F1F5F2;
+    position: relative;
+}
+
+.product-area.item-7{
+    background: #F0F5F5;
+    position: relative;
+}
+
+.product-area.item-8{
+    background: #F1F5F2;
+    position: relative;
+}
+
+.product-area.item-9{
+    background: #F4ECF4;
+    position: relative;
+}
+
+.product-area.item-10{
+    background: #F3F2EC;
+    position: relative;
+}
+
+.product-model-img{
+    text-align: center;
+}
+
+.product-icon{
+    text-align: right;
+    padding: 20px 10px;
+}
+
+.product-icon img{
+    cursor: pointer;
+}
+
+
+.product-area.item-3{
+    background: #F3EBEB;
+    position: relative;
+}
+
+
+.img-height .product-model-img img{
+    height: 250px;
+}
+.product-area.item-5 .product-model-img img{
+	margin-top: -25px;
+}
+
+.load-more{
+    background: #F9F9F8;
+    text-align: center;
+    padding: 20px;
+}
+
+.load-more a{
+    color: #e84f88;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-hover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s;
+    z-index: 9999;
+
+}
+.product-hover:after{
+    content: '';
+    background: #6db0c6;
+    opacity: .69;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+
+}
+.product-area:hover .product-hover{
+	opacity: 1;
+	transition: .3s;
+}
+.product-area:hover .product-icon img{
+	opacity: 0;
+}
+/* .product-area.item-4 .product-hover{
+	width: 96%;
+}
+.product-area.item-5 .product-hover{
+    width: 88%;
+}
+.product-area.item-6 .product-hover{
+    width: 88%;
+}
+.product-area.item-7 .product-hover{
+    width: 90%;
+}
+.product-area.item-8 .product-hover{
+    width: 90%;
+} */
+/* .product-area.item-9 .product-hover{
+    width: 92%;
+} */
+/* .product-area.item-10 .product-hover{
+    width: 88%;
+} */
+.product-details{
+	background: #fff;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+.view-btn{
+    font-family: Karla;
+    border: 3px solid #fff;
+    padding: 5px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    top: 38%;
+    left: 50%;
+    position: absolute;
+    width: 90px;
+    text-align: center;
+    margin-left: -45px;
+}
+.view-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.product-icon-hover{
+    text-align: right;
+    padding: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.ml-custom{
+    margin-left: 4px;
+    margin-right: 1px;
+}
+
+.product-details h4{
+    color: #5b3f61;
+    font-family: Karla;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.product-details label{
+    color: #89838a;
+    font-family: Karla;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.vertical-shape{
+    width: 2.5px;
+    height: 18px;
+    background-color: #89838a;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-left: 7px;
+}
+.product-bg{
+    display: inline-block;
+}
+.product-bg .white, 
+.product-bg .red, .product-bg .blue{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    top: 1px;
+    position: relative;
+    left: 5px;
+    border: 2px solid #D9D4DA;
+}
+.product-bg .red{
+    background-color: red;
+    border: none;
+    margin: 0 8px;
+}
+
+.product-bg .blue{
+    background-color: #99e4e7;
+    border: none;
+}
+.product-details h2{
+	color: #e84f88;
+    font-family: Karla;
+    font-size: 20pt;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
+.view-btn {
+    top: 30%;
+}
+
+.product-area:hover .view-btn{
+    top: 38%;
+    transition: .3s;
+}
+/*
+=========================
+End Cloth Area Css
+=========================
+/*
+=========================
+Start Trend Carosul Css
+=========================
+*/
+.container.trends-w.custom-mt{
+    margin-top: 100px;
+}
+.trends-left{
+	background: #f4f0f0;
+	text-align: center;
+	height: 100%;
+}
+.trends-left img{
+	position: absolute;
+    margin-top: 95px;
+    left: 75px;
+    top: 72px;
+}
+.trends-right{
+	background: #f8f5f5;
+    padding: 55px 50px;
+    height: 100%;
+}
+.trends-right h2{
+	font-family: 'Code Light';
+	color: #e84f88;
+	font-size: 30pt;
+}
+.trends-right h2 span {
+    font-family: 'Code bold';
+
+}
+.trends-right h4{
+	position: absolute;
+	color:  #51abc8;
+	font-family: 'Code bold';
+	font-size: 90pt;
+	top: 54px;
+    right: 222px;
+    opacity: 19%;
+}
+.trends-right p{
+	font-family: 'Karla';
+	color: #786b7a;
+	font-size: 22px;
+    margin-top: 34px;
+    line-height: 32px;
+}
+.trends-right button{
+    background: #51abc8;
+    border: none;
+    padding: 4px 20px;
+    font-family: 'karla';
+    font-weight: bold;
+    color: #ffff;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.trends-right button:focus{
+	outline: none;
+}
+/*
+=========================
+End Trend Carosul Css
+=========================
+*/
+
+/*
+=========================
+Footer Start Css
+=========================
+*/
+
+
+.sponsor-main{
+	text-align: center;
+    margin-top: 80px;
+}
+.sponsor-main img{
+    width: 100%;
+}
+.footer-main{
+	background: #f4f4f4;
+	max-width: 100%;
+}
+
+.container.footer-w{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-left{
+    padding: 9px;
+    overflow: hidden;
+    position: relative;
+    right: 30px;
+}
+.footer-menu{
+    display: inline-block;
+}	
+
+.footer-menu ul{
+	display: flex;
+    list-style: none;
+    padding: 0px 0px;
+    margin-top: 30px;
+}
+.footer-menu ul li a{
+    position: relative;
+	text-decoration: none;
+    text-transform: none;
+    margin: 20px;
+    font-size: small;
+    color: #4E5749;
+    font-family: 'CODE Bold';
+    opacity: 50%;    position: relative;
+    top: -17px;
+    right: 10px;
+}
+.footer-left p{
+	position: absolute;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4E5749;
+    padding: 0px 9px;
+    opacity: 40%;
+    top: 53px;
+}
+.footer-right{
+	position: relative;
+    text-align: right;
+    top: 21px;
+}
+.sub-btb{
+	background: #e84f88;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+}
+.button, input{
+	background: #fff;
+	border: none;
+	font-size: 16px;
+	width: 240px;
+}
+.social-logo{
+    position: relative;
+    padding: 1px 4px;
+}
+.social-logo img{
+	padding: 2px 5px;
+}
+/*
+=========================
+ End Footer Start Css
+=========================
+*/
+/*
+====================
+Off-casvas Menu CSS
+====================
+*/
+.off-canvas-menu{
+	position: fixed;
+	background: #403f3f;
+    width: 290%;
+    height: 100%%;
+    padding: 26px 21px;
+    z-index: 99;
+    margin-left: -100%;
+    transition: .2s;
+}
+.off-canvas-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.off-canvas-menu li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #636262;
+    padding: 14px 0px;
+
+}
+
+.menu-close{
+    position: absolute;
+    right: 26px;
+    top: 16px;
+    font-size: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+.off-canvas-overlay{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	opacity: .6;
+    z-index: -1;
+    background: #000;
+    opacity: 0;
+}
+.off-canvas-menu.active{
+	margin-left: 0px;
+}
+.off-canvas-overlay.active{
+    opacity: .6;
+    z-index: 98;
+}
+
+/*
+=========================
+Owl-carousel Slider Css
+=========================
+*/
+.owl-carousel .owl-item img {
+    display: inherit;
+    width: auto;
+    margin: 0 auto;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    top: 37%;
+    width: 100%;
+    font-size: 80px;
+    color: #E84F88;
+}
+.owl-theme .owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+}
+
+.owl-theme .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+
+}
+.owl-carousel .nav-btn{
+  height: 18px;
+  position: absolute;
+  width: 35px;
+  cursor: pointer;
+  top:50%;
+}
+.owl-carousel .prev-slide{
+    background: url(../img/next-icon.png) no-repeat scroll 0 0;
+    left: -10px;
+    width: 40px;
+    transform: rotate(180deg);
+}
+.owl-carousel .next-slide{
+    background: url(../img/next-icon.png) no-repeat scroll 0px 0px;
+    right: 0;
+    width: 35px;
+    top: 50%;
+}
+.slider-main .prev-slide:hover{
+    background: url(../img/pre.png) no-repeat scroll 0px 3px;
+    left: 0px;
+    width: 35px;
+    transform: rotate(0deg);
+}
+.slider-main .next-slide:hover{
+    background: url(../img/pre.png) no-repeat scroll 0px 3px;
+    right: 4px;
+    width: 35px;
+    transform: rotate(-180deg);
+}  
+
+/*
+===============================
+  End Owl-carousel Slider Css
+===============================
+*/
+
+
+/*================================= 
+ start owl-carousel trends-section 
+ ==================================*/
+.trends-section .owl-nav.disabled{
+     display: none!important; 
+}
+
+.trends-section .owl-item .item{
+    display: flex!important;
+}
+.trends-section .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    transform: rotate(90deg);
+}
+
+.trends-section .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e84f88;
+}
+
+.trends-section .owl-dots .owl-dot.active:focus{
+    outline: none!important;
+}
+
+.trends-section .owl-dots .owl-dot span {
+    background: #d3cece;
+}
+
+.trends-section .owl-dots .owl-dot:focus{
+    outline: none!important;
+}
+
+ /*================================= 
+  End owl-carousel trends-section 
+ ==================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
